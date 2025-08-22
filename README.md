@@ -15,7 +15,7 @@ Este proyecto es el **frontend** de una aplicación CRUD de notas, desarrollado 
 ```Esquema
 src/app
  ├── components   → Componentes reutilizables
- ├── pages        → Páginas principales (Home, Listado, Crear, Editar)
+ ├── pages        → Páginas principales (Home, Notes)
  ├── services     → Servicios para consumir la API REST
  ├── models       → Interfaces/DTOs
  └── app-routing.module.ts
@@ -24,10 +24,7 @@ src/app
 ## 🖥️ Páginas principales
 
 - **Home** → Presentación del proyecto con gif de demostración.
-- **Listado de notas** → Muestra todas las notas registradas.
-- **Crear nota** → Formulario para añadir una nueva nota.
-- **Editar nota** → Formulario para actualizar una nota existente.
-- **Eliminar nota** → Confirmación y borrado de notas.
+- **Notes** → Muestra todas las notas registradas.
 
 ## 🛠️ Requisitos
 
@@ -39,7 +36,7 @@ src/app
 1. Clonar el repositorio:
 
    ```bash
-   git clone
+   git clone https://github.com/devepsdev/notesfy-frontend.git
    ```
 
 2. Instalar dependencias:
@@ -64,3 +61,4 @@ src/app
 
 Asegúrate de que el backend está corriendo en `http://localhost:8080`.  
 El **servicio Angular** (`note.service.ts`) está configurado para consumir la API REST del backend.
+
