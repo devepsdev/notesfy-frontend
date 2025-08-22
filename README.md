@@ -62,7 +62,8 @@ src/app
 Asegúrate de que el backend está corriendo en `http://localhost:8080`.  
 El **servicio Angular** (`note.service.ts`) está configurado para consumir la API REST del backend.
 
-## 📸 Captura de pantalla
+## 📸 Capturas de pantalla
 
 ![Captura del CRUD](public/assets/Animation.gif)
+
 
