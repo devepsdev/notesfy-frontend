@@ -1,0 +1,21 @@
+#notes-page {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  .error {
+    color: red;
+  }
+
+  .note-list {
+    width: 70%;
+    min-width: 450px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}

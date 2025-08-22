@@ -1,0 +1,42 @@
+/* Estilos personalizados para el home */
+
+/* Títulos */
+h1 {
+  font-weight: 700;
+  color: white;
+}
+
+h2 {
+  font-weight: 600;
+  color: white;
+}
+
+/* Párrafos */
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: white;
+}
+
+/* Secciones */
+section {
+  margin-bottom: 3rem;
+  color: white;
+}
+
+/* Imagen del gif */
+img {
+  border: 3px solid #e0e0e0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Listado de tecnologías */
+ul li {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
