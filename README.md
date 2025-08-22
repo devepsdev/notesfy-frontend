@@ -4,7 +4,7 @@ Este proyecto es el **frontend** de una aplicación CRUD de notas, desarrollado 
 
 ## 🚀 Tecnologías utilizadas
 
-- **Angular 18+**
+- **Angular 20+**
 - **TypeScript**
 - **Angular Router**
 - **Bootstrap** (para estilos y diseño responsive)
@@ -29,7 +29,7 @@ src/app
 ## 🛠️ Requisitos
 
 - **Node.js 22 (LTS)**
-- **Angular CLI 18+**
+- **Angular CLI 20+**
 
 ## ▶️ Cómo ejecutar
 
@@ -61,4 +61,5 @@ src/app
 
 Asegúrate de que el backend está corriendo en `http://localhost:8080`.  
 El **servicio Angular** (`note.service.ts`) está configurado para consumir la API REST del backend.
+
 
